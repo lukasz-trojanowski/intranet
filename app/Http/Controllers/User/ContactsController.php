@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Http\Controllers\User;
+
+use Illuminate\Http\Request;
+
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+
+class ContactsController extends Controller
+{
+    public function showContacts(){
+        return view('/intranet/user/knowledge/knowledge');
+    }
+}
